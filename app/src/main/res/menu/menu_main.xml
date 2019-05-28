@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ivoandr.shoppinglist.MainActivity">
+    <item
+        android:id="@+id/action_private_lists"
+        android:orderInCategory="101"
+        android:title="@string/private_lists" />
+    <item
+        android:id="@+id/action_public_lists"
+        android:orderInCategory="102"
+        android:title="@string/public_lists" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="103"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
